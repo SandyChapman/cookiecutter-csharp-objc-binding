@@ -1,6 +1,8 @@
 # cookiecutter-csharp-objc-binding
 A CookieCutter template for generating a C# binding project for binding an Objective-C static library.
 
+Official cookiecutter repo is available here: https://github.com/audreyr/cookiecutter
+
 It is recommended to first generate the ApiDefinition file using [Objective Sharpie](http://developer.xamarin.com/guides/ios/advanced_topics/binding_objective-c/objective_sharpie/) provided by Xamarin.
 
 Then, execute the cookie cutter using a Python script that will substitute the `api_definition` value in the `cookiecutter.json` file and will copy your static library.
