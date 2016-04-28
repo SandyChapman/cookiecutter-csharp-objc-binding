@@ -39,8 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libLXRWidgets.linkwith.cs">
-      <DependentUpon>libLXRWidgets.a</DependentUpon>
+    <Compile Include="lib{{ cookiecutter.library_name }}.linkwith.cs">
+      <DependentUpon>lib{{ cookiecutter.library_name }}.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libLXRWidgets.a" />
+    <ObjcBindingNativeLibrary Include="lib{{ cookiecutter.library_name }}.a" />
   </ItemGroup>
 </Project>
