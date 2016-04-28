@@ -3,7 +3,7 @@
   "email": "schapman@lixar.com",
   "repo_name": "XamarinBinding",
   "version": "0.0.0.1",
-  "copyrightholder": "{{full_name}}",
+  "copyrightholder": "{{ cookiecutter.full_name }}",
   "api_definition": "",
   "structs_and_enums": "",
   "description": "",
